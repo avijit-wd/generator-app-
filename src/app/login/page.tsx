@@ -26,10 +26,10 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
       <form
         onSubmit={handleSubmit}
-        className="bg-white p-8 rounded shadow-md w-full max-w-sm"
+        className="bg-white p-6 md:p-8 rounded shadow-md w-full max-w-sm"
       >
         <h1 className="text-xl font-bold mb-6 text-center text-black">
           AI Generator Login
