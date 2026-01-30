@@ -68,7 +68,7 @@ export default function VideoPage() {
       </div>
 
       {/* Input area - fixed at bottom */}
-      <div className="p-3 md:p-4">
+      <div className="p-3 md:p-4 mb-[100px]">
         <div className="max-w-2xl mx-auto rounded-2xl md:rounded-3xl border border-gray-300 bg-white px-3 py-2 md:px-4 md:py-3 shadow-sm">
           <textarea
             value={prompt}
